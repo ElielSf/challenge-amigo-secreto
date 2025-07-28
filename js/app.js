@@ -6,6 +6,13 @@ function limparCampo() {
     document.querySelector("input").value = "";
 }
 
+function visualizarLista(nome) {
+    let lista = document.getElementById("listaAmigos");
+    let novoItem = document.createElement("li");
+    novoItem.innerHTML = nome;
+    lista.appendChild(novoItem);
+}
+
 function adicionarAmigo() {
     nome = document.querySelector("input").value;
 
@@ -14,6 +21,8 @@ function adicionarAmigo() {
     }
 
     listaAmigos.push(nome);
+
+    visualizarLista(nome);
 
     limparCampo();
 }
