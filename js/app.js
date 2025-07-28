@@ -24,7 +24,7 @@ function adicionarAmigo() {
     nome = document.querySelector("input").value;
 
     if (nome === "") {
-        return alert("Digite um nome válido.");
+        return alert("Por favor, insira um nome.");
     }
 
     listaAmigos.push(nome);
