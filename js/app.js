@@ -2,6 +2,10 @@
 let listaAmigos = [];
 let nome;
 
+function limparCampo() {
+    document.querySelector("input").value = "";
+}
+
 function adicionarAmigo() {
     nome = document.querySelector("input").value;
 
@@ -10,4 +14,6 @@ function adicionarAmigo() {
     }
 
     listaAmigos.push(nome);
+
+    limparCampo();
 }
