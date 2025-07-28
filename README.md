@@ -10,7 +10,7 @@ O principal objetivo deste desafio é fortalecer e aplicar os conhecimentos em *
 
 Você pode acessar a versão ao vivo do projeto hospedada na Vercel através do link abaixo:
 
-**[Acessar o projeto Sorteador de Amigo Secreto]()**
+**[Acessar o projeto Sorteador de Amigo Secreto](https://challenge-amigo-secreto-ten-ebon.vercel.app/)**
 
 ## 🚀 Funcionalidades
 
